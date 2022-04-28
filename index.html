@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCC</title>
+
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+
+
+        .sidebar {
+            position: absolute;
+            width: 150px;
+            height: 935px;
+
+            background: #191718;
+        }
+
+        .s {
+            position: absolute;
+            width: 43px;
+            height: 19px;
+            left: 16px;
+            top: 14px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+
+
+
+            color: #FFFFFF;
+
+        }
+
+
+        .f {
+            position: absolute;
+            width: 43px;
+            height: 19px;
+            left: 16px;
+            top: 14px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+
+        }
+
+        .z {
+            position: absolute;
+            width: 1768px;
+            height: 935px;
+            margin-left: 150px;
+
+            background: #FFFFFF;
+        }
+
+        .c {
+            position: absolute;
+            width: 310px;
+            height: 122px;
+            margin-top: 20px;
+            margin-bottom: 793px;
+            margin-left: 729px;
+            margin-right: 729px;
+        }
+
+        .groupone {
+            display: flex;
+            position: absolute;
+            width: 1510px;
+            height: 210px;
+            top: 172px;
+            bottom: 553px;
+            right: 129px;
+            left: 129px;
+            background: #EFEFEF;
+
+        }
+
+        .p {
+            width: 241px;
+            height: 21px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            margin-top: 38px;
+            margin-bottom: 151px;
+            margin-left: 634px;
+            margin-right: 635px;
+
+
+
+            color: #000000;
+        }
+
+        .k {
+            position: absolute;
+            width: 972px;
+            height: 95px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #000000;
+            margin-top: 77px;
+            margin-bottom: 38px;
+            margin-left: 269px;
+            margin-right: 269px;
+        }
+
+        .cx {
+            position: absolute;
+            width: 43px;
+            height: 19px;
+            left: 16px;
+            top: 14px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+
+        .ca {
+            position: absolute;
+            width: 63px;
+            height: 19px;
+            margin-left: 16px;
+            margin-top: 14px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #AAAAAA;
+
+
+        }
+
+        .cz {
+            position: absolute;
+            width: 40px;
+            height: 19px;
+            margin-left: 16px;
+            margin-top: 14px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+
+        .cb {
+            position: absolute;
+            width: 33px;
+            height: 19px;
+            margin-left: 16px;
+            margin-top: 14px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #AAAAAA;
+        }
+
+        .ct {
+            position: absolute;
+            width: 57px;
+            height: 19px;
+            margin-left: 16px;
+            margin-top: 14px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+
+
+            color: #AAAAAA;
+        }
+
+        .back {
+            width: 150px;
+            height: 44px;
+
+        }
+
+        .backq {
+            width: 150px;
+            height: 44px;
+            border-top: 0.0001px solid rgba(170, 170, 170, 1);
+
+        }
+
+        .backv {
+            width: 150px;
+            height: 44px;
+            background: #5C5C5C;
+
+        }
+
+        .backe {
+            width: 150px;
+            height: 44px;
+
+
+        }
+
+        .backr {
+            width: 150px;
+            height: 44px;
+            border: 0.0001px solid rgba(170, 170, 170, 1);
+
+        }
+
+        .as {
+            position: absolute;
+            margin-top: 856px;
+            width: 1768px;
+            height: 79px;
+            background: #FFFFFF;
+        }
+
+        .ss {
+            position: absolute;
+            width: 125px;
+            height: 19px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 129px;
+            margin-right: 1514px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #3E3E3E;
+
+        }
+
+        .grouptwo {
+            display: flex;
+            position: absolute;
+            width: 470px;
+            height: 252px;
+            top: 422px;
+            left: 279px;
+            right: 1189px;
+            bottom: 261px;
+
+
+
+        }
+
+        .groupthree {
+            flex-direction: column;
+            position: absolute;
+            width: 470px;
+            height: 252px;
+            top: 422px;
+            left: 799px;
+            right: 649px;
+            bottom: 261px;
+
+        }
+
+        .groupfour {
+            gap: 50px;
+            flex-direction: column;
+            display: flex;
+            position: absolute;
+            width: 470px;
+            height: 252px;
+            top: 422px;
+            left: 1319px;
+            right: 129px;
+            bottom: 261px;
+
+        }
+
+        .pone {
+            position: absolute;
+            width: 470px;
+            height: 28px;
+        }
+
+        .ptwo {
+            position: absolute;
+            width: 470px;
+            height: 28px;
+        }
+
+        .pthree {
+            position: absolute;
+            width: 470px;
+            height: 28px;
+        }
+
+        .pone-a {
+            position: absolute;
+            width: 470px;
+            height: 28px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+
+            color: #000000;
+        }
+
+        .pone-b {
+            position: absolute;
+            width: 470px;
+            height: 28px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+
+            color: #000000;
+
+        }
+
+        .pone-c {
+            position: absolute;
+            width: 470px;
+            height: 28px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+
+            color: #000000;
+        }
+
+        .img-one {
+            position: absolute;
+            width: 128px;
+            height: 128px;
+            margin-top: 46px;
+
+
+        }
+
+        .img-two {
+            position: absolute;
+            width: 128px;
+            height: 128px;
+            margin-top: 46px;
+        }
+
+        .img-three {
+            position: absolute;
+            width: 128px;
+            height: 128px;
+            margin-top: 46px;
+        }
+
+        .textone {
+            position: absolute;
+            width: 326px;
+            height: 124px;
+            margin-left: 144px;
+            margin-top: 46px;
+        }
+
+
+        }
+
+        .texton {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #000000;
+        }
+
+        .ul {
+            position: absolute;
+            width: 470px;
+            height: 72px;
+            margin-top: 180px;
+
+        }
+
+        .tr {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #000000;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="sidebar">
+        <ul class="sidebara">
+            <li class="back"><label class="cx">Home</label></li>
+            <li class="backq"><label class="ca">Services</label></li>
+            <li class="backv"><label class="cz">News</label></li>
+            <li class="backe"><label class="cb">Blog</label></li>
+            <li class="backr"><label class="ct" for="">Contact</label></li>
+        </ul>
+    </div>
+
+
+    <div class="z">
+        <div class="c">
+            <img src="log.png" alt="erro">
+
+
+
+
+        </div>
+        <div class="groupone">
+
+            <p class="p">Lorem ipsum dolor sit asmet?></p>
+            <p class="k">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique consequat placerat.
+                Vestibulum auctor pellentesque sem, eu<br> posuere erat hendrerit quis. Maecenas vel consequat turpis.
+                Nam facilisis, ligula in mattis sodales, augue justo tristique nulla, sed lacinia<br> ante eros ut mi.
+                Morbi vitae diam augue. Aliquam vel mauris a nibh auctor commodo. Praesent et nisi eu justo eleifend
+                convallis. Quisque<br> suscipit maximus vestibulum. Phasellus congue mollis orci, sit amet luctus augue
+                tristique eu. Donec vulputate odio neque, sed semper<br> turpis pellentesque a.</p>
+
+
+
+        </div>
+
+
+
+        <div class="as">
+            <p class="ss">Copyright © 2021</p>
+
+        </div>
+
+    </div>
+    <div class="grouptwo">
+        <div class="pone">
+            <p class="pone-a">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="img-one"><img src="a.png" alt=""></div>
+        <div class="textone">
+            <p class="texton">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Sed non dui sodales,
+                faucibus<br> libero ut,
+                posuere felis. Donec imperdiet<br> suscipit accumsan. Aenean consequat<br> condimentum velit ut tempor.
+                Nam porta<br> massa in metus bibendum congue.<br> Pellentesque ultrices liquam egestas nunc at </p>
+        </div>
+        <div class="ul">
+            <p class="tr">ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est<br> ullamcorper id. Aenean
+                consequat
+                condimentum velit ut tempor.<br> Nam porta massa in metus bibendum congue. Pellentesque<br> ultrices
+                vestibulum
+                mattis.</p>
+        </div>
+
+
+    </div>
+    <div class="groupthree">
+        <div class="ptwo">
+            <p class="pone-b">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="img-two"><img src="b.png" alt=""></div>
+        <div class="textone">
+            <p class="texton">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Sed non dui sodales,
+                faucibus<br> libero ut,
+                posuere felis. Donec imperdiet<br> suscipit accumsan. Aenean consequat<br> condimentum velit ut tempor.
+                Nam porta<br> massa in metus bibendum congue.<br> Pellentesque ultrices liquam egestas nunc at </p>
+        </div>
+        <div class="ul">
+            <p class="tr">ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est<br> ullamcorper id. Aenean
+                consequat
+                condimentum velit ut tempor.<br> Nam porta massa in metus bibendum congue. Pellentesque<br> ultrices
+                vestibulum
+                mattis.</p>
+        </div>
+
+    </div>
+    <div class="groupfour">
+        <div class="pthree">
+            <p class="pone-c">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="img-three"><img src="c.png" alt=""></div>
+        <div class="textone">
+            <p class="texton">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Sed non dui sodales,
+                faucibus<br> libero ut,
+                posuere felis. Donec imperdiet<br> suscipit accumsan. Aenean consequat<br> condimentum velit ut tempor.
+                Nam porta<br> massa in metus bibendum congue.<br> Pellentesque ultrices liquam egestas nunc at </p>
+        </div>
+        <div class="ul">
+            <p class="tr"> ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est<br> ullamcorper id. Aenean
+                consequat
+                condimentum velit ut tempor.<br> Nam porta massa in metus bibendum congue. Pellentesque<br> ultrices
+                vestibulum
+                mattis.</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
